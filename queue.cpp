@@ -19,12 +19,6 @@ private:
     Node *last;//指向最近添加节点的链接
     int theSize;
 
-    /*init()
-    {
-        theSize=0;
-        first=new Node;
-        last=first;
-    }*/
 public:
     Queue()
     {first=last= nullptr;theSize=0;};
