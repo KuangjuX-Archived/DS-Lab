@@ -10,6 +10,8 @@ int main()
 
 
     int count=0;
-    printf("location:%d count:%d\n",Search_Bin(ST,21,count),count);
-    printf("location:%d count:%d\n",Search_Bin(ST,85,count),count);
+    printf("location:%d ",Search_Bin(ST,21,count));
+    printf("count:%d\n",count);
+    printf("location:%d ",Search_Bin(ST,85,count));
+    printf("count:%d",count);
 }
